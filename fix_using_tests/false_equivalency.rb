@@ -12,14 +12,14 @@ end
 def selection(num) # using the variable num as argument for the method
 
 
-  binding.pry
+#  binding.pry
   if num == 1 # checking if user input is 1
-      puts "YUM YUM MUNCH MUNCH MUNCH" # passing output to a variable depending on the input 1
+      return "YUM YUM MUNCH MUNCH MUNCH" # passing output to a variable depending on the input 1
 
 
   elsif num == 2 # checking if user input is 1
 
-     puts "HAM HAM HAM IN MY TUMMY" # passing output to a variable depending on the input 2
+     return "HAM HAM HAM IN MY TUMMY" # passing output to a variable depending on the input 2
 
   end
 end
